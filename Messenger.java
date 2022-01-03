@@ -7,9 +7,9 @@ public class Messenger {
         User user1, user2, user3;
 
         try {
-            user1 = userService.register(new User("gogacatalin", "cata2001", "gogacatalin2001@yahoo.com"));
-            user2 = userService.register(new User("gabriel_crisan", "gabitza", "gabibaba@yahoo.com"));
-            user3 = userService.register(new User("moga_bogdan", "sparta", "moga_b@yahoo.com"));
+            user1 = userService.register(new User("gogacatalin", "1234", "gogacatalin@yahoo.com"));
+            user2 = userService.register(new User("gabriel_crisan", "1234", "gabibaba@yahoo.com"));
+            user3 = userService.register(new User("moga_bogdan", "1234", "moga_b@yahoo.com"));
             //User userT = userService.register(new User("gogacatalin", "cata2001", "gogacatalin2001@yahoo.com"));
 
             Message m1 = new Message(user1, user2, "Hello! Is this working?");
